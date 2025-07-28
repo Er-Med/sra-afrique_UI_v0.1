@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "company": "SRA Africa",
+    "tagline": "African Solutions & Resources",
+    "location": "Casablanca, Morocco",
+    "phone": "+212 522 123 456",
+    "email": "contact@sra-afrique.ma"
+  },
+  "home": {
+    "hero": {
+      "title": "Transforming Africa",
+      "subtitle": "Together",
+      "description": "Innovative and sustainable solutions for the economic and social development of the African continent.",
+      "cta1": "Discover our services",
+      "cta2": "Contact us"
+    },
+    "stats": {
+      "title": "Our Impact in Numbers",
+      "subtitle": "Concrete results for sustainable development",
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients",
+      "experience": "Years of Experience",
+      "growth": "Growth Rate"
+    },
+    "services": {
+      "title": "Our Areas of Excellence",
+      "subtitle": "We offer comprehensive and personalized solutions to address Africa's unique challenges",
+      "strategic": {
+        "title": "Strategic Consulting",
+        "description": "Support in defining and implementing development strategies."
+      },
+      "innovation": {
+        "title": "Innovation & Tech",
+        "description": "Innovative technological solutions adapted to African challenges."
+      },
+      "sustainable": {
+        "title": "Sustainable Development",
+        "description": "Environmentally friendly and socially responsible projects."
+      },
+      "viewAll": "View all our services"
+    },
+    "about": {
+      "title": "Why Choose SRA Africa?",
+      "description": "With over a decade of experience, we understand the unique challenges of the African continent and offer solutions adapted to each local context.",
+      "expertise": "Local expertise and international vision",
+      "approach": "Sustainable and responsible approach",
+      "innovation": "Adapted technological innovation",
+      "learnMore": "Learn more",
+      "satisfaction": "Client Satisfaction",
+      "onTime": "Projects Delivered On Time"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Vision into Reality?",
+      "description": "Contact us today to discuss your project and discover how we can support you.",
+      "button": "Start your project"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About SRA Africa",
+      "subtitle": "Pioneers of sustainable development and innovation in Africa for over a decade"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description1": "SRA Africa is committed to supporting organizations, governments and businesses in their transformation towards sustainable and inclusive development. We firmly believe in the immense potential of the African continent and work to reveal it through innovative and adapted solutions.",
+      "description2": "Our unique approach combines local expertise, cutting-edge technologies and proven methodologies to create a positive and lasting impact on the communities we serve."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the reference partner for the sustainable transformation of Africa, contributing to the emergence of a prosperous, innovative and environmentally respectful continent.",
+      "goal": "Goal: 1000 transformative projects completed"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide each of our actions",
+      "engagement": {
+        "title": "Commitment",
+        "description": "We are fully committed to each project to guarantee exceptional results."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We adopt the latest technologies and methodologies to create innovative solutions."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We work closely with our clients to co-create sustainable solutions."
+      },
+      "impact": {
+        "title": "Impact",
+        "description": "We aim for a positive and lasting impact on communities and the African economy."
+      }
+    },
+    "history": {
+      "title": "Our History",
+      "subtitle": "Over a decade serving African development",
+      "2012": {
+        "title": "2012 - Foundation",
+        "description": "Creation of SRA Africa with the vision of transforming development in Africa"
+      },
+      "2015": {
+        "title": "2015 - Expansion",
+        "description": "Extension of our services to 5 African countries with 25 completed projects"
+      },
+      "2020": {
+        "title": "2020 - Innovation",
+        "description": "Launch of our technology and digital innovation division"
+      },
+      "2025": {
+        "title": "2025 - Excellence",
+        "description": "150+ completed projects, presence in 12 countries, team of 50+ experts"
+      }
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "subtitle": "Passionate and experienced leaders serving Africa"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive and personalized solutions to transform Africa"
+    },
+    "main": {
+      "title": "Our Areas of Expertise",
+      "subtitle": "We offer a complete range of services to support your transformation and growth"
+    },
+    "process": {
+      "title": "Our Methodology",
+      "subtitle": "A structured approach to guarantee the success of your projects",
+      "analysis": {
+        "title": "Analysis",
+        "description": "In-depth assessment of your needs and context"
+      },
+      "design": {
+        "title": "Design",
+        "description": "Development of tailor-made solutions adapted to your challenges"
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Solution deployment with rigorous monitoring"
+      },
+      "evaluation": {
+        "title": "Evaluation",
+        "description": "Results measurement and continuous optimization"
+      }
+    },
+    "why": {
+      "title": "Why Choose SRA Africa?",
+      "expertise": {
+        "title": "Local Expertise",
+        "description": "In-depth knowledge of African markets and cultures"
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "Creative solutions adapted to contemporary challenges"
+      },
+      "engagement": {
+        "title": "Sustainable Commitment",
+        "description": "Long-term partnership for lasting impact"
+      },
+      "team": {
+        "title": "Multidisciplinary Team",
+        "description": "Qualified experts in all key areas"
+      },
+      "guarantees": "Our Guarantees"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Contact us for a free consultation and discover how we can support you in your transformation.",
+      "quote": "Request a quote",
+      "call": "Call now"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Discover how we transform Africa through concrete and impactful projects"
+    },
+    "recent": {
+      "title": "Recent Projects",
+      "subtitle": "A selection of our most impactful achievements"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "What our partners say about our achievements"
+    },
+    "cta": {
+      "title": "Your Project, Our Expertise",
+      "description": "Join our satisfied clients and transform your ideas into concrete and impactful projects.",
+      "discuss": "Discuss your project",
+      "services": "View our services"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Ready to transform your ideas into reality? Let's discuss your project today."
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company/Organization",
+      "phone": "Phone",
+      "service": "Service of Interest",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We will respond to you as soon as possible.",
+      "error": "An error occurred. Please try again or contact us directly.",
+      "selectService": "Select a service",
+      "required": "*",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your@email.com",
+      "companyPlaceholder": "Your organization name",
+      "phonePlaceholder": "+212 XXX XXX XXX",
+      "messagePlaceholder": "Describe your project or needs..."
+    },
+    "info": {
+      "title": "Our Contact Information",
+      "description": "We are here to support you in all your projects. Feel free to contact us by the method that suits you best.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours",
+      "mapTitle": "Interactive Map"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quickly find answers to your questions",
+      "response": {
+        "question": "What are your response times?",
+        "answer": "We commit to responding to all requests within 24 business hours."
+      },
+      "consultation": {
+        "question": "Do you offer free consultations?",
+        "answer": "Yes, we offer a free initial consultation to assess your needs."
+      },
+      "countries": {
+        "question": "In which countries do you operate?",
+        "answer": "We operate in 15 African countries with a strong presence in the Maghreb and West Africa."
+      },
+      "projects": {
+        "question": "What types of projects do you accept?",
+        "answer": "We support all types of projects: private, public, NGO, from conception to implementation."
+      }
+    }
+  },
+  "footer": {
+    "company": "SRA Africa",
+    "tagline": "Solutions & Resources",
+    "description": "Your trusted partner for sustainable development and innovation in Africa.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "© 2025 SRA Africa. All rights reserved.",
+    "address1": "123 Mohammed V Boulevard",
+    "address2": "Casablanca 20000, Morocco",
+    "services": {
+      "strategic": "Strategic Consulting",
+      "sustainable": "Sustainable Development",
+      "innovation": "Technological Innovation",
+      "training": "Training & Capacity Building",
+      "market": "Market Studies"
+    }
+  },
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "contact": "Contact",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
