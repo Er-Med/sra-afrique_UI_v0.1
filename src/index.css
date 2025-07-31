@@ -1,6 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom font family with Roboto and Tahoma */
+@layer base {
+  html {
+    font-family: "Roboto", "Tahoma", "Segoe UI", sans-serif;
+  }
+}
+
+/* Custom animations for modern hero section */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 /* RTL Support for Arabic */
 [dir="rtl"] {
@@ -54,5 +118,6 @@
 
 /* Arabic font support */
 [dir="rtl"] {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arabic UI Text', 'SF Arabic', 'Helvetica Neue', Helvetica, Arial;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Arabic UI Text",
+    "SF Arabic", "Helvetica Neue", Helvetica, Arial;
 }

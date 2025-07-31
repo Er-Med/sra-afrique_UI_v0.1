@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       {/* Top Bar */}
-      <div className="bg-blue-900 text-white py-2">
+      <div className="bg-sra-primary text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
@@ -47,31 +47,30 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">SRA</span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">{t('header.company')}</h1>
-              <p className="text-sm text-gray-600">{t('header.tagline')}</p>
+            <div className="flex items-center justify-center p-2">
+              <img
+                src="/logo.png"
+                alt="SRA Africa Logo"
+                className="h-12 w-auto object-contain"
+              />
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                  isActive(item.href)
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive(item.href)
+                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10'
+                    : 'text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10'
+                    }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </nav>
             <LanguageSwitcher />
           </div>
@@ -80,7 +79,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+              className="p-2 rounded-md text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -96,11 +95,10 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
-                    isActive(item.href)
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
-                  }`}
+                  className={`px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${isActive(item.href)
+                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10'
+                    : 'text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10'
+                    }`}
                 >
                   {item.name}
                 </Link>
