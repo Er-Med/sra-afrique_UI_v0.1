@@ -20,7 +20,7 @@ const Header = () => {
   const isActive = (href: string) => location.pathname === href;
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="bg-white shadow-sharp sticky top-0 z-50">
       {/* Top Bar */}
       <div className="bg-sra-primary text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,9 +63,9 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive(item.href)
-                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10'
-                    : 'text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10'
+                  className={`px-4 py-2 text-sm font-medium transition-all duration-200 ${isActive(item.href)
+                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10 border-b-2 border-sra-orange'
+                    : 'text-gray-700 hover:text-sra-primary hover:border-b-2 hover:border-sra-light-blue'
                     }`}
                 >
                   {item.name}
@@ -79,7 +79,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 rounded-md text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10"
+              className="p-2 text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10 transition-all duration-200"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -95,15 +95,15 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${isActive(item.href)
-                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10'
-                    : 'text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10'
+                  className={`px-4 py-3 text-base font-medium transition-all duration-200 ${isActive(item.href)
+                    ? 'text-sra-primary bg-sra-light-blue bg-opacity-10 border-l-4 border-sra-orange'
+                    : 'text-gray-700 hover:text-sra-primary hover:bg-sra-light-blue hover:bg-opacity-10 hover:border-l-4 hover:border-sra-light-blue'
                     }`}
                 >
                   {item.name}
                 </Link>
               ))}
-              <div className="px-3 py-2 border-t border-gray-200 mt-2 pt-4">
+              <div className="px-4 py-3 border-t border-gray-200 mt-2 pt-4">
                 <LanguageSwitcher />
               </div>
             </nav>

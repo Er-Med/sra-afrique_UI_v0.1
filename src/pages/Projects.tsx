@@ -1,105 +1,105 @@
-import React from 'react';
-import { Calendar, MapPin, Users, Award, ExternalLink } from 'lucide-react';
+// import React from 'react';
+// import { Calendar, MapPin, Users, Award, ExternalLink } from 'lucide-react';
 
 const Projects = () => {
-  const projects = [
-    {
-      title: 'Transformation Digitale - Ministère de l\'Agriculture',
-      description: 'Mise en place d\'une plateforme digitale pour moderniser la gestion agricole au Sénégal.',
-      image: 'https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Technologie',
-      location: 'Dakar, Sénégal',
-      date: '2024',
-      status: 'Terminé',
-      impact: '50,000 agriculteurs connectés',
-      client: 'Gouvernement du Sénégal'
-    },
-    {
-      title: 'Projet Énergie Solaire Communautaire',
-      description: 'Installation de systèmes solaires pour alimenter 25 villages ruraux en électricité propre.',
-      image: 'https://images.pexels.com/photos/9875433/pexels-photo-9875433.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Énergie Renouvelable',
-      location: 'Mali',
-      date: '2023',
-      status: 'Terminé',
-      impact: '15,000 bénéficiaires',
-      client: 'Banque Mondiale'
-    },
-    {
-      title: 'Centre de Formation Professionnelle',
-      description: 'Création d\'un centre de formation aux métiers du numérique pour les jeunes.',
-      image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Formation',
-      location: 'Abidjan, Côte d\'Ivoire',
-      date: '2024',
-      status: 'En cours',
-      impact: '500 jeunes formés/an',
-      client: 'Union Africaine'
-    },
-    {
-      title: 'Système de Gestion des Déchets Urbains',
-      description: 'Solution innovante pour optimiser la collecte et le recyclage des déchets urbains.',
-      image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Environnement',
-      location: 'Rabat, Maroc',
-      date: '2023',
-      status: 'Terminé',
-      impact: '70% d\'amélioration du recyclage',
-      client: 'Ville de Rabat'
-    },
-    {
-      title: 'Plateforme E-commerce Agricole',
-      description: 'Marketplace digitale connectant directement producteurs et consommateurs.',
-      image: 'https://images.pexels.com/photos/1435238/pexels-photo-1435238.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Agriculture',
-      location: 'Ghana',
-      date: '2024',
-      status: 'En cours',
-      impact: '1,200 producteurs inscrits',
-      client: 'Secteur Privé'
-    },
-    {
-      title: 'Programme de Microfinance Digitale',
-      description: 'Solution bancaire mobile pour l\'inclusion financière des populations rurales.',
-      image: 'https://images.pexels.com/photos/7841834/pexels-photo-7841834.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Finance',
-      location: 'Rwanda',
-      date: '2023',
-      status: 'Terminé',
-      impact: '25,000 nouveaux comptes',
-      client: 'Banque Centrale du Rwanda'
-    }
-  ];
+  // const projects = [
+  //   {
+  //     title: 'Transformation Digitale - Ministère de l\'Agriculture',
+  //     description: 'Mise en place d\'une plateforme digitale pour moderniser la gestion agricole au Sénégal.',
+  //     image: 'https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Technologie',
+  //     location: 'Dakar, Sénégal',
+  //     date: '2024',
+  //     status: 'Terminé',
+  //     impact: '50,000 agriculteurs connectés',
+  //     client: 'Gouvernement du Sénégal'
+  //   },
+  //   {
+  //     title: 'Projet Énergie Solaire Communautaire',
+  //     description: 'Installation de systèmes solaires pour alimenter 25 villages ruraux en électricité propre.',
+  //     image: 'https://images.pexels.com/photos/9875433/pexels-photo-9875433.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Énergie Renouvelable',
+  //     location: 'Mali',
+  //     date: '2023',
+  //     status: 'Terminé',
+  //     impact: '15,000 bénéficiaires',
+  //     client: 'Banque Mondiale'
+  //   },
+  //   {
+  //     title: 'Centre de Formation Professionnelle',
+  //     description: 'Création d\'un centre de formation aux métiers du numérique pour les jeunes.',
+  //     image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Formation',
+  //     location: 'Abidjan, Côte d\'Ivoire',
+  //     date: '2024',
+  //     status: 'En cours',
+  //     impact: '500 jeunes formés/an',
+  //     client: 'Union Africaine'
+  //   },
+  //   {
+  //     title: 'Système de Gestion des Déchets Urbains',
+  //     description: 'Solution innovante pour optimiser la collecte et le recyclage des déchets urbains.',
+  //     image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Environnement',
+  //     location: 'Rabat, Maroc',
+  //     date: '2023',
+  //     status: 'Terminé',
+  //     impact: '70% d\'amélioration du recyclage',
+  //     client: 'Ville de Rabat'
+  //   },
+  //   {
+  //     title: 'Plateforme E-commerce Agricole',
+  //     description: 'Marketplace digitale connectant directement producteurs et consommateurs.',
+  //     image: 'https://images.pexels.com/photos/1435238/pexels-photo-1435238.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Agriculture',
+  //     location: 'Ghana',
+  //     date: '2024',
+  //     status: 'En cours',
+  //     impact: '1,200 producteurs inscrits',
+  //     client: 'Secteur Privé'
+  //   },
+  //   {
+  //     title: 'Programme de Microfinance Digitale',
+  //     description: 'Solution bancaire mobile pour l\'inclusion financière des populations rurales.',
+  //     image: 'https://images.pexels.com/photos/7841834/pexels-photo-7841834.jpeg?auto=compress&cs=tinysrgb&w=800',
+  //     category: 'Finance',
+  //     location: 'Rwanda',
+  //     date: '2023',
+  //     status: 'Terminé',
+  //     impact: '25,000 nouveaux comptes',
+  //     client: 'Banque Centrale du Rwanda'
+  //   }
+  // ];
 
-  const stats = [
-    { number: '150+', label: 'Projets Réalisés' },
-    { number: '15', label: 'Pays Couverts' },
-    { number: '500K+', label: 'Bénéficiaires' },
-    { number: '98%', label: 'Taux de Succès' }
-  ];
+  // const stats = [
+  //   { number: '150+', label: 'Projets Réalisés' },
+  //   { number: '15', label: 'Pays Couverts' },
+  //   { number: '500K+', label: 'Bénéficiaires' },
+  //   { number: '98%', label: 'Taux de Succès' }
+  // ];
 
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'Terminé':
-        return 'bg-green-100 text-green-800';
-      case 'En cours':
-        return 'bg-blue-100 text-blue-800';
-      default:
-        return 'bg-gray-100 text-gray-800';
-    }
-  };
+  // const getStatusColor = (status: string) => {
+  //   switch (status) {
+  //     case 'Terminé':
+  //       return 'bg-green-100 text-green-800';
+  //     case 'En cours':
+  //       return 'bg-blue-100 text-blue-800';
+  //     default:
+  //       return 'bg-gray-100 text-gray-800';
+  //   }
+  // };
 
-  const getCategoryColor = (category: string) => {
-    const colors = {
-      'Technologie': 'bg-blue-500',
-      'Énergie Renouvelable': 'bg-green-500',
-      'Formation': 'bg-purple-500',
-      'Environnement': 'bg-orange-500',
-      'Agriculture': 'bg-yellow-500',
-      'Finance': 'bg-red-500'
-    };
-    return colors[category as keyof typeof colors] || 'bg-gray-500';
-  };
+  // const getCategoryColor = (category: string) => {
+  //   const colors = {
+  //     'Technologie': 'bg-blue-500',
+  //     'Énergie Renouvelable': 'bg-green-500',
+  //     'Formation': 'bg-purple-500',
+  //     'Environnement': 'bg-orange-500',
+  //     'Agriculture': 'bg-yellow-500',
+  //     'Finance': 'bg-red-500'
+  //   };
+  //   return colors[category as keyof typeof colors] || 'bg-gray-500';
+  // };
 
   return (
     <div>
@@ -114,7 +114,7 @@ const Projects = () => {
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -125,10 +125,10 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Projects Grid */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -195,10 +195,10 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Success Stories */}
-      <section className="py-16 bg-gradient-to-br from-blue-50 to-green-50">
+      {/* <section className="py-16 bg-gradient-to-br from-blue-50 to-green-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -250,10 +250,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 bg-gray-900 text-white">
+      {/* <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Votre Projet, Notre Expertise
@@ -276,7 +276,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

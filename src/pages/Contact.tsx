@@ -23,7 +23,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulation d'envoi
     setTimeout(() => {
       setIsSubmitting(false);
@@ -36,7 +36,7 @@ const Contact = () => {
         service: '',
         message: ''
       });
-      
+
       setTimeout(() => setSubmitStatus('idle'), 5000);
     }, 2000);
   };
@@ -102,19 +102,19 @@ const Contact = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
+
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
                 Envoyez-nous un Message
               </h2>
-              
+
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-2" />
                   <span className="text-green-800">Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.</span>
                 </div>
               )}
-              
+
               {submitStatus === 'error' && (
                 <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center">
                   <AlertCircle className="h-5 w-5 text-red-600 mr-2" />
@@ -241,14 +241,14 @@ const Contact = () => {
               </form>
             </div>
 
-            {/* Contact Info */}
+
             <div className="space-y-8">
               <div>
                 <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
                   Nos Coordonnées
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  Nous sommes là pour vous accompagner dans tous vos projets. N'hésitez pas à nous contacter 
+                  Nous sommes là pour vous accompagner dans tous vos projets. N'hésitez pas à nous contacter
                   par le moyen qui vous convient le mieux.
                 </p>
               </div>
@@ -288,7 +288,7 @@ const Contact = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -318,7 +318,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

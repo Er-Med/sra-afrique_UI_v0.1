@@ -1,93 +1,93 @@
-import React from 'react';
-import { Target, Lightbulb, Globe, Users, TrendingUp, BookOpen, Briefcase, Heart } from 'lucide-react';
+// import React from 'react';
+// import { Target, Lightbulb, Globe, Users, TrendingUp, BookOpen, Briefcase, Heart } from 'lucide-react';
 
 const Services = () => {
-  const services = [
-    {
-      icon: Target,
-      title: 'Conseil Stratégique',
-      description: 'Accompagnement dans la définition et la mise en œuvre de stratégies de développement adaptées aux défis africains.',
-      features: [
-        'Planification stratégique',
-        'Analyse de marché',
-        'Études de faisabilité',
-        'Accompagnement à la transformation'
-      ],
-      color: 'blue'
-    },
-    {
-      icon: Lightbulb,
-      title: 'Innovation & Technologie',
-      description: 'Solutions technologiques innovantes pour accélérer le développement et la transformation digitale.',
-      features: [
-        'Transformation digitale',
-        'Solutions IoT',
-        'Intelligence artificielle',
-        'Plateformes digitales'
-      ],
-      color: 'green'
-    },
-    {
-      icon: Globe,
-      title: 'Développement Durable',
-      description: 'Projets respectueux de l\'environnement et socialement responsables pour un avenir durable.',
-      features: [
-        'Projets environnementaux',
-        'Énergie renouvelable',
-        'Gestion des ressources',
-        'Impact social'
-      ],
-      color: 'orange'
-    },
-    {
-      icon: Users,
-      title: 'Formation & Capacitation',
-      description: 'Programmes de formation pour développer les compétences et renforcer les capacités locales.',
-      features: [
-        'Formation professionnelle',
-        'Renforcement institutionnel',
-        'Leadership',
-        'Compétences techniques'
-      ],
-      color: 'purple'
-    },
-    {
-      icon: TrendingUp,
-      title: 'Études de Marché',
-      description: 'Analyses approfondies des marchés africains pour orienter vos décisions d\'investissement.',
-      features: [
-        'Analyse concurrentielle',
-        'Études sectorielles',
-        'Opportunités d\'investissement',
-        'Risques et mitigation'
-      ],
-      color: 'red'
-    },
-    {
-      icon: Briefcase,
-      title: 'Gestion de Projets',
-      description: 'Gestion complète de projets complexes avec une approche méthodique et des résultats mesurables.',
-      features: [
-        'Planification de projet',
-        'Suivi et évaluation',
-        'Gestion des risques',
-        'Livraison qualité'
-      ],
-      color: 'indigo'
-    }
-  ];
+  //   const services = [
+  //     {
+  //       icon: Target,
+  //       title: 'Conseil Stratégique',
+  //       description: 'Accompagnement dans la définition et la mise en œuvre de stratégies de développement adaptées aux défis africains.',
+  //       features: [
+  //         'Planification stratégique',
+  //         'Analyse de marché',
+  //         'Études de faisabilité',
+  //         'Accompagnement à la transformation'
+  //       ],
+  //       color: 'blue'
+  //     },
+  //     {
+  //       icon: Lightbulb,
+  //       title: 'Innovation & Technologie',
+  //       description: 'Solutions technologiques innovantes pour accélérer le développement et la transformation digitale.',
+  //       features: [
+  //         'Transformation digitale',
+  //         'Solutions IoT',
+  //         'Intelligence artificielle',
+  //         'Plateformes digitales'
+  //       ],
+  //       color: 'green'
+  //     },
+  //     {
+  //       icon: Globe,
+  //       title: 'Développement Durable',
+  //       description: 'Projets respectueux de l\'environnement et socialement responsables pour un avenir durable.',
+  //       features: [
+  //         'Projets environnementaux',
+  //         'Énergie renouvelable',
+  //         'Gestion des ressources',
+  //         'Impact social'
+  //       ],
+  //       color: 'orange'
+  //     },
+  //     {
+  //       icon: Users,
+  //       title: 'Formation & Capacitation',
+  //       description: 'Programmes de formation pour développer les compétences et renforcer les capacités locales.',
+  //       features: [
+  //         'Formation professionnelle',
+  //         'Renforcement institutionnel',
+  //         'Leadership',
+  //         'Compétences techniques'
+  //       ],
+  //       color: 'purple'
+  //     },
+  //     {
+  //       icon: TrendingUp,
+  //       title: 'Études de Marché',
+  //       description: 'Analyses approfondies des marchés africains pour orienter vos décisions d\'investissement.',
+  //       features: [
+  //         'Analyse concurrentielle',
+  //         'Études sectorielles',
+  //         'Opportunités d\'investissement',
+  //         'Risques et mitigation'
+  //       ],
+  //       color: 'red'
+  //     },
+  //     {
+  //       icon: Briefcase,
+  //       title: 'Gestion de Projets',
+  //       description: 'Gestion complète de projets complexes avec une approche méthodique et des résultats mesurables.',
+  //       features: [
+  //         'Planification de projet',
+  //         'Suivi et évaluation',
+  //         'Gestion des risques',
+  //         'Livraison qualité'
+  //       ],
+  //       color: 'indigo'
+  //     }
+  //   ];
 
-  const getColorClasses = (color: string) => {
-    const colorMap = {
-      blue: 'bg-blue-50 text-blue-600 border-blue-200',
-      green: 'bg-green-50 text-green-600 border-green-200',
-      orange: 'bg-orange-50 text-orange-600 border-orange-200',
-      purple: 'bg-purple-50 text-purple-600 border-purple-200',
-      red: 'bg-red-50 text-red-600 border-red-200',
-      indigo: 'bg-indigo-50 text-indigo-600 border-indigo-200'
-    };
-    return colorMap[color as keyof typeof colorMap] || colorMap.blue;
-  };
+  //   const getColorClasses = (color: string) => {
+  //     const colorMap = {
+  //       blue: 'bg-blue-50 text-blue-600 border-blue-200',
+  //       green: 'bg-green-50 text-green-600 border-green-200',
+  //       orange: 'bg-orange-50 text-orange-600 border-orange-200',
+  //       purple: 'bg-purple-50 text-purple-600 border-purple-200',
+  //       red: 'bg-red-50 text-red-600 border-red-200',
+  //       indigo: 'bg-indigo-50 text-indigo-600 border-indigo-200'
+  //     };
+  //     return colorMap[color as keyof typeof colorMap] || colorMap.blue;
+  //   };
 
   return (
     <div>
@@ -102,7 +102,7 @@ const Services = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -144,10 +144,10 @@ const Services = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Process Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -181,10 +181,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Choose Us */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -249,10 +249,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      {/* <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Prêt à Démarrer Votre Projet ?
@@ -275,7 +275,7 @@ const Services = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

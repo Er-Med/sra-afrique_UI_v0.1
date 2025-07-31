@@ -32,19 +32,19 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 uppercase">{t('footer.quickLinks')}</h4>
+            <h4 className="text-lg font-semibold mb-4 uppercase tracking-wide">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">{t('nav.home')}</Link></li>
-              <li><Link to="/about" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">{t('nav.about')}</Link></li>
-              <li><Link to="/services" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">{t('nav.services')}</Link></li>
-              <li><Link to="/projects" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">{t('nav.projects')}</Link></li>
-              <li><Link to="/contact" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">{t('nav.contact')}</Link></li>
+              <li><Link to="/" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">{t('nav.home')}</Link></li>
+              <li><Link to="/about" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">{t('nav.about')}</Link></li>
+              <li><Link to="/services" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">{t('nav.services')}</Link></li>
+              <li><Link to="/projects" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">{t('nav.projects')}</Link></li>
+              <li><Link to="/contact" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">{t('nav.contact')}</Link></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 uppercase">{t('footer.ourServices')}</h4>
+            <h4 className="text-lg font-semibold mb-4 uppercase tracking-wide">{t('footer.ourServices')}</h4>
             <ul className="space-y-2">
               <li className="text-white text-opacity-80">{t('footer.services.strategic')}</li>
               <li className="text-white text-opacity-80">{t('footer.services.sustainable')}</li>
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 uppercase">{t('footer.contact')}</h4>
+            <h4 className="text-lg font-semibold mb-4 uppercase tracking-wide">{t('footer.contact')}</h4>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-sra-orange mt-0.5 flex-shrink-0" />
@@ -77,18 +77,18 @@ const Footer = () => {
 
             {/* Social Media */}
             <div className="mt-6">
-              <h5 className="text-sm font-semibold mb-3 uppercase">{t('footer.followUs')}</h5>
+              <h5 className="text-sm font-semibold mb-3 uppercase tracking-wide">{t('footer.followUs')}</h5>
               <div className="flex space-x-3">
-                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">
+                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">
                   <Facebook className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">
+                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">
                   <Twitter className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">
+                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-colors duration-200">
+                <a href="#" className="text-white text-opacity-80 hover:text-sra-orange transition-all duration-200">
                   <Instagram className="h-5 w-5" />
                 </a>
               </div>

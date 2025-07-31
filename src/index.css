@@ -11,6 +11,29 @@
   }
 }
 
+/* Sharp, modern design system */
+@layer components {
+  .btn-primary {
+    @apply bg-sra-orange text-sra-primary font-bold px-6 py-3 border-0 shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white text-white font-bold px-6 py-3 shadow-md hover:bg-white hover:text-sra-primary transition-all duration-200 transform hover:scale-105;
+  }
+
+  .card {
+    @apply bg-white shadow-md border border-gray-200 hover:shadow-lg transition-all duration-200;
+  }
+
+  .section-title {
+    @apply text-3xl lg:text-4xl font-bold text-sra-primary uppercase tracking-wide;
+  }
+
+  .section-accent {
+    @apply w-16 h-0.5 bg-sra-orange mx-auto mb-6;
+  }
+}
+
 /* Custom animations for modern hero section */
 @keyframes blob {
   0% {
@@ -59,7 +82,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: #888;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

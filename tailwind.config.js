@@ -20,6 +20,15 @@ export default {
           'purple': '#892B67',       // Purple
         }
       },
+      borderRadius: {
+        'sharp': '2px',
+        'modern': '4px',
+      },
+      boxShadow: {
+        'sharp': '0 2px 8px rgba(0, 0, 0, 0.1)',
+        'sharp-lg': '0 4px 16px rgba(0, 0, 0, 0.15)',
+        'sharp-xl': '0 8px 24px rgba(0, 0, 0, 0.2)',
+      },
     },
   },
   plugins: [],
