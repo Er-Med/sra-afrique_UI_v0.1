@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next';
 import {
  ArrowRight, Users, Target, Award, TrendingUp,
  // Globe, Lightbulb, 
- Play, Star, CheckCircle, Clock, Zap,
+ // Play, 
+ Star, CheckCircle, Clock, Zap,
  // LucideIcon 
 } from 'lucide-react';
 // import StatsChart from '../components/StatsChart';
@@ -197,11 +198,11 @@ const HomeRounded = () => {
           </div>
 
           {/* Play Button */}
-          <div className="flex items-center justify-center pt-4">
+          {/* <div className="flex items-center justify-center pt-4">
            <button className="group relative w-16 h-16 bg-gradient-to-r from-sra-orange to-sra-purple rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-lg">
             <Play className="w-6 h-6 text-sra-primary ml-1" />
            </button>
-          </div>
+          </div> */}
          </div>
         </div>
        </div>

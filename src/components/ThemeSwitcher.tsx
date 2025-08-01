@@ -12,8 +12,8 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = ({ isSharp, onToggle }) => {
    <button
     onClick={onToggle}
     className={`bg-sra-primary text-white p-3 transition-all duration-200 transform hover:scale-105 ${isSharp
-      ? 'shadow-sharp-lg hover:shadow-sharp-xl'
-      : 'shadow-lg hover:shadow-xl rounded-lg'
+     ? 'shadow-sharp-lg hover:shadow-sharp-xl'
+     : 'shadow-lg hover:shadow-xl rounded-lg'
      }`}
     title={isSharp ? "Switch to Rounded Design" : "Switch to Sharp Design"}
    >
